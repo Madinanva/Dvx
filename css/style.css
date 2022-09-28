@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#secondHeader {
+    display: none;
+}
+
+#firstHeader .containers {
+    padding: 1.5rem 7rem;
+}
+
+#firstHeader .containers .general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#firstHeader .containers .aFirst {
+    width: 22%;
+}
+
+#firstHeader .containers .aSecond {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstHeader .containers .aSecond .tax1 {
+    width: 10%;
+}
+
+#firstHeader .containers .aSecond .tax2 {
+    width: 5%;
+}
+
+#firstHeader .containers .aFirst a {
+    font-size: 12.23px;
+    color: #373737;
+    font-weight: bold;
+    line-height: 18.345px;
+}
+
+#firstHeader .containers .aSecond a {
+    font-size: 16px;
+    color: #373737;
+    line-height: 24px;
+    color: #151515;
+    font-weight: 400;
+
+}
+
+#secondHeader .containers {
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#secondHeader .containers .general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#secondHeader .containers .aFirst {
+    width: 64%;
+}
+
+#secondHeader .containers .aSecond {
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+#secondHeader .containers .aFirst a {
+    font-size: 12.23px;
+    color: #373737;
+    font-weight: bold;
+    line-height: 18.345px;
+}
+
+#secondHeader .containers .aSecond a {
+    font-size: 16px;
+    color: #373737;
+    line-height: 24px;
+    color: #151515;
+    font-weight: 400;
+
+}
+
+#taxes #first .general {
+    background-color: rgb(251, 251, 251);
+}
+
+#taxes #first .general .containers {
+    padding: 1.5rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#taxes #first .general .containers .left {
+    width: 65%;
+}
+
+#taxes #first .general .containers .left img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#taxes #first .general .containers .right {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#taxes #first .general .containers .right button {
+    width: 100%;
+    padding: 3rem 0rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#taxes #first .general .containers .right .btn1 {
+    background-color: #69ACF1;
+}
+
+#taxes #first .general .containers .right .btn1 a {
+    color: white;
+
+}
+
+#taxes #first .general .containers .right .btn2 {
+    background-color: #0EC4A3;
+}
+
+#taxes #first .general .containers .right .btn2 a {
+    color: white;
+}
+
+#taxes #first .general .containers .right .btn3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #f1f1f1;
+    padding: 2rem;
+    text-align: left;
+
+
+}
+
+#taxes #first .general .containers .right .btn3 .leftI {
+    width: 18%;
+}
+
+#taxes #first .general .containers .right .btn3 .leftI img {
+    width: 100%;
+    clip-path: circle(45% at 50% 50%);
+}
+
+#taxes #first .general .containers .right .btn3 .rightT {
+    width: 78%;
+    padding-left: 1rem;
+}
+
+#taxes #first .general .containers .right .btn3 .rightT a {
+    color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#taxes #first .general .containers .right .btn3 .rightT span {
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+@media (max-width:576px) {
+    #firstHeader {
+        display: none;
+
+    }
+
+    #taxes {
+        display: none;
+    }
+
+    #secondHeader {
+        display: block;
+    }
+
+    #taxes {
+        display: block;
+    }
+}
+
+#taxes #second .containers {
+    display: flex;
+    padding: 1.5rem 7rem;
+    justify-content: space-between;
+
+}
+
+#taxes #second .box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 48%;
+
+}
+
+#taxes #second .box1 p {
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    color: #212529;
+}
+
+#taxes #second .box1 .boxInner {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    color: rgb(83, 83, 83);
+    border: 1px solid #f5f5f5;
+    padding: 2rem 4rem 2rem 1rem;
+    box-shadow: 10px 41px 182px 33px rgba(214, 210, 210, 0.49);
+}
+
+#taxes #second .box2 {
+    width: 48%;
+
+}
+
+#taxes #second .box2 p {
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    color: #212529;
+}
+
+#taxes #second .box2 .boxInner1 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    color: rgb(83, 83, 83);
+    border: 1px solid #f5f5f5;
+    padding: 2rem 4rem 2rem 1rem;
+    box-shadow: 10px 41px 182px 33px rgba(214, 210, 210, 0.49);
+}
+
+#taxes #second .box2 .boxInner1 .one {
+    padding: 10px 20px;
+    background-color: #8BC5FF;
+    border-color: #8BC5FF;
+    box-shadow: white;
+}
+
+#taxes #second .box2 .boxInner1 .two {
+    padding: 10px 20px;
+    background-color: white;
+    border-color: white;
+    box-shadow: white;
+}
+
+#taxes #second .box2 .boxInner1 .one a {
+    color: white;
+}
+
+#taxes #second .box2 .boxInner1 .two a {
+    color: #8BC5FF;
+}
+
+#taxes #second .box2 .boxinner2 p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    color: rgb(83, 83, 83);
+    border: 1px solid #f5f5f5;
+    padding: 2rem 4rem 5rem 1rem;
+    box-shadow: 10px 41px 182px 33px rgba(214, 210, 210, 0.49);
+}
